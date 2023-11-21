@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraping Ético y Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Web Scraping Ético y Profesional</h1>
+        </header>
+        <section id="urlSection">
+            <label for="urlInput">Introduce la URL:</label>
+            <input type="text" id="urlInput" placeholder="Ej. https://www.ejemplo.com">
+            <button onclick="scrape()">Scrapear</button>
+        </section>
+        <section id="infoSection">
+            <h2>Información de la URL</h2>
+            <div id="infoDisplay"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
